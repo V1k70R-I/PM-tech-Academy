@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.emojiContainer {
+  width: 50%;
+  margin: 25px auto;
+}
+
+.emojiWrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; // пропорции блока определяются здесь
+}
+
+.emojiContent {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4bef99;
+  border-radius: 50%;
+}
+
+.eyes-block, .nose-block, .mouth-block {
+  display: flex;
+  height: 33.3%;
+  z-index: 1;
+}
+
+.eyes-block {
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.nose-block {
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 5%;
+}
+
+.mouth-block {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.nose {
+  background-color: #fff;
+  height: 40%;
+  width: 13%;
+}
+
+.mouth {
+  background-color: #fff;
+  height: 12%;
+  flex: 0 1 45%;
+}
+
+.leftEye, .rightEye {
+  height: 60%; 
+  background-color: #fff;
+  border-radius: 50%;
+  flex: 0 1 19%;
+}
