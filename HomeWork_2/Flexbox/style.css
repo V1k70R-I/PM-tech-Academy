@@ -5,10 +5,9 @@
 }
 
 .head {
-  width: 50%;
   max-width: 750px;
   height: 750px;
-  margin: 25px auto;
+  margin: 25px auto;  
   display: flex;
   flex-direction: column;
   background-color: #4bef99;
