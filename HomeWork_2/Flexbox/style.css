@@ -6,8 +6,10 @@
 
 .head {
   width: 50%;
-  max-width: 750px;
-  height: 750px;
+  /* max-width: 750px;
+  height: 750px; */
+  width: 70vmin;
+  height: 70vmin;
   margin: 25px auto;
   display: flex;
   flex-direction: column;
